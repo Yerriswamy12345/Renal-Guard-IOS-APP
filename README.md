@@ -177,28 +177,42 @@ Renal-Guard/
 ```
 
 ---
-
 ## 📱 Application Screenshots
 
-### App Logo
-![App Logo](screenshots/APP%20Logo%20Page.jpeg)
+<table>
+<tr>
+<td align="center">
+<b>App Logo</b><br>
+<img src="screenshots/APP%20Logo%20Page.jpeg" width="250"/>
+</td>
+<td align="center">
+<b>Login Page</b><br>
+<img src="screenshots/Login%20Page.png" width="250"/>
+</td>
+</tr>
 
-### Login Page
-![Login Page](screenshots/Login%20Page.png)
+<tr>
+<td align="center">
+<b>Doctor Dashboard</b><br>
+<img src="screenshots/Doctor%20Dashboard.jpeg" width="250"/>
+</td>
+<td align="center">
+<b>Patient Assessment</b><br>
+<img src="screenshots/Assessment.jpeg" width="250"/>
+</td>
+</tr>
 
-### Doctor Dashboard
-![Doctor Dashboard](screenshots/Doctor%20Dashboard.jpeg)
-
-### Patient Assessment
-![Patient Assessment](screenshots/Assessment.jpeg)
-
-### Risk Analysis
-![Risk Analysis](screenshots/Risk%20Analysis.jpeg)
-
-### Patient Dashboard
-![Patient Dashboard](screenshots/Patient%20Dashboard.jpeg)
-
----
+<tr>
+<td align="center">
+<b>Risk Analysis</b><br>
+<img src="screenshots/Risk%20Analysis.jpeg" width="250"/>
+</td>
+<td align="center">
+<b>Patient Dashboard</b><br>
+<img src="screenshots/Patient%20Dashboard.jpeg" width="250"/>
+</td>
+</tr>
+</table>
 
 ## 🌟 Project Outcome
 
