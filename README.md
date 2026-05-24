@@ -163,16 +163,54 @@ Renal Guard provides an automated risk assessment and patient management system 
 
 ```text
 Renal-Guard/
-├── ios-app/           # SwiftUI Application
-├── backend/           # PHP APIs
-├── database/          # MySQL Scripts
-├── screenshots/       # App Screenshots
-├── docs/              # Project Documentation
+├── Backend (PHP)/
+├── Renal Guard.xcodeproj/
+├── localhost.sql
+├── screenshots/
+│   ├── APP Logo Page.jpeg
+│   ├── Assessment.jpeg
+│   ├── Doctor Dashboard.jpeg
+│   ├── Login Page.png
+│   ├── Patient Dashboard.jpeg
+│   └── Risk Analysis.jpeg
 └── README.md
 ```
 
 ---
 
+## 📱 Application Screenshots
+
+### App Logo
+![App Logo](screenshots/APP%20Logo%20Page.jpeg)
+
+### Login Page
+![Login Page](screenshots/Login%20Page.png)
+
+### Doctor Dashboard
+![Doctor Dashboard](screenshots/Doctor%20Dashboard.jpeg)
+
+### Patient Assessment
+![Patient Assessment](screenshots/Assessment.jpeg)
+
+### Risk Analysis
+![Risk Analysis](screenshots/Risk%20Analysis.jpeg)
+
+### Patient Dashboard
+![Patient Dashboard](screenshots/Patient%20Dashboard.jpeg)
+
+---
+
 ## 🌟 Project Outcome
 
-Renal Guard successfully combines clinical decision support, risk evaluation, appointment management, and patient engagement into a single healthcare platform. The system improves dialysis patient safety, enhances doctor efficiency, and supports evidence-based healthcare decisions.
+Renal Guard successfully combines clinical decision support, risk evaluation, appointment management, and patient engagement into a single healthcare platform.
+
+### Key Achievements
+- Improved dialysis patient safety
+- Faster clinical decision-making
+- Early identification of sepsis risks
+- Better appointment adherence
+- Enhanced doctor–patient communication
+- Secure healthcare data management
+- Scalable architecture for future AI integration
+
+Renal Guard demonstrates how technology can improve healthcare workflows while supporting evidence-based clinical decisions and better patient outcomes.
