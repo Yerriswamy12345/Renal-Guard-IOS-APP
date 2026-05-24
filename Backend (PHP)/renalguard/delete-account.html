@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - RenalGuard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f7fa;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        h2 {
+            color: #0077b6;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #333;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        input, textarea {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        textarea {
+            height: 80px;
+            resize: none;
+        }
+        button {
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 95%;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #005f8d;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #666;
+        }
+        @media (max-width: 500px) {
+            .container {
+                width: 90%;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Delete Your RenalGuard Account</h2>
+        <p>
+            We're sorry to see you go. Please fill in the form below to request deletion
+            of your account and all associated medical data from our system.
+        </p>
+        <form id="deleteForm" onsubmit="return handleDelete(event)">
+            <input type="text" id="name" placeholder="Enter your full name" required>
+            <input type="email" id="email" placeholder="Enter your registered email" required>
+            <input type="password" id="password" placeholder="Enter your account password" required>
+            <textarea id="reason" placeholder="Reason for deleting account (Optional)"></textarea>
+            <button type="submit">Request Account Deletion</button>
+        </form>
+        <div class="footer">
+            <p>For any urgent assistance, contact us at 
+                <a href="mailto:chethanchandragiri348@gmail.com" style="color:#0077b6; text-decoration:none;">chethanchandragiri348@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function handleDelete(event) {
+            event.preventDefault();
+            document.body.innerHTML = `
+                <div style="text-align:center; margin-top:15%; font-family:'Segoe UI',sans-serif;">
+                    <h1 style="color:#0077b6;">Account Deletion Request Received</h1>
+                    <p style="font-size:18px; color:#333; max-width:600px; margin:20px auto;">
+                        Thank you for submitting your request. Your account and all related data
+                        will be permanently deleted from RenalGuard’s system within 7 working days.
+                        If this request was made in error, please contact us immediately at 
+                        <a href="mailto:chethanchandragiri348 @gmail.com" style="color:#0077b6;">chethanchandragiri348@gmail.com</a>.
+                    </p>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
